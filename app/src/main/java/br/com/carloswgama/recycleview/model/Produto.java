@@ -4,9 +4,9 @@ public class Produto {
 
     private String nome;
     private double preco;
-    private double imagem;
+    private int imagem;
 
-    public Produto(String nome, double preco, double imagem) {
+    public Produto(String nome, double preco, int imagem) {
         this.nome = nome;
         this.preco = preco;
         this.imagem = imagem;
@@ -28,11 +28,11 @@ public class Produto {
         this.preco = preco;
     }
 
-    public double getImagem() {
+    public int getImagem() {
         return imagem;
     }
 
-    public void setImagem(double imagem) {
+    public void setImagem(int imagem) {
         this.imagem = imagem;
     }
 }
